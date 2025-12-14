@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <title>2학기 수행평가 확인</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="login-box">
+                <h1>2학기 수행평가 확인</h1>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label for="studentId">학번</label>
+                        <input type="text" id="studentId" name="studentId" required autocomplete="off" />
+                    </div>
+                    <div class="input-group">
+                        <label for="password">비밀번호</label>
+                        <input type="password" id="password" name="password" required />
+                    </div>
+                    <button type="submit" id="submitBtn">확인</button>
+                    <div id="message" class="message"></div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
